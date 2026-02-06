@@ -9,7 +9,6 @@ const HeroSection = () => {
     category: categories[index] || item.title
   }));
 
-  // Function to handle category click
   const handleCategoryClick = (category) => {
     const section = document.getElementById(category.toLowerCase());
     if (section) {
@@ -27,7 +26,7 @@ const HeroSection = () => {
           Discover Our <span className="text-red-600">Premium</span> Products
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Fresh chickens, eggs, and coal delivered to your doorstep in Thohoyandou
+          Fresh chickens, eggs, Archaar and coal delivered to your doorstep in Thohoyandou
         </p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">

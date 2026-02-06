@@ -24,12 +24,14 @@ const ProductsSection = () => {
               <div key={`${category.id}-${item.id}`} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                 {/* Product Image */}
                 <div className="h-48 bg-gray-100 flex items-center justify-center overflow-hidden">
-                  <img 
-                    src={item.image} 
-                    alt={item.name}
-                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
+                <img 
+                  src={item.image} 
+                  alt={item.name}
+                  className={`w-full h-full object-cover transition-transform duration-300 hover:scale-105 ${
+                    item.name === 'Live Chickens' ? 'object-[0%_2%]' : 'object-center'
+                  }`}
+                />
+              </div>
                 
                 {/* Product Info */}
                 <div className="p-6">
@@ -72,7 +74,7 @@ const ProductsSection = () => {
                       Call to Order
                     </a>
                     <a 
-                      href="https://wa.me/27632834546"
+                      href="https://wa.me/27815425533"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 px-4 rounded-lg font-medium text-center transition-colors flex items-center justify-center"

@@ -1,11 +1,12 @@
-import liveChicken from './liveChicken.jpg'
-import slaughtedChicken from './slaughted.jpg'
+import liveChicken from './liveChicken.jpeg'
+import hardBody from './hardBody.jpg'
 import eggs1 from './30eggs.jpg'
 import eggs2 from './60eggs.jpg'
 import eggs3 from './90eggs.jpg'
 import coal from './coal.jpeg'
 import archaar from './archar.jpg'
 import wood from './wood.png'
+import boilerChicken from './boilerChicken.jpeg'
 
 const servicesData = [
   {
@@ -22,10 +23,16 @@ const servicesData = [
       },
       { 
         id: 1, 
-        name: 'Slaughted And Dressed Chickens', 
+        name: 'Slaughted And Dressed Hard Body Chickens', 
         sec_name: 'Khuhu Dzo thuvhiwaho', 
         price: 'R110',
-        image: slaughtedChicken
+        image: hardBody
+      }, {
+        id: 2,
+        name: 'Slaughted And Dressed Boiler Chickens', 
+        sec_name: 'Khuhu Dzo thuvhiwaho', 
+        price: 'R110',
+        image: boilerChicken
       }
     ]
   },

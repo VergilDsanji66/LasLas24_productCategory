@@ -1,5 +1,5 @@
 
-import chicken from './liveChicken.jpg';
+import chicken from './liveChicken.jpeg';
 import eggs from './eggs.jpeg';
 import coal from './coal.jpeg';
 import archar from './archar.jpg'

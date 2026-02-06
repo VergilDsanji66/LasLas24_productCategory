@@ -51,15 +51,15 @@ const ProductsSection = () => {
                   {/* Features */}
                   <div className="mb-6">
                     <div className="flex items-center text-sm text-gray-700 mb-2">
-                      <Check className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
+                      <Check className="h-4 w-4 text-green-500 mr-2 shrink-0" />
                       <span>Fresh Daily</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-700 mb-2">
-                      <Check className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
+                      <Check className="h-4 w-4 text-green-500 mr-2 shrink-0" />
                       <span>Local Delivery Available</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-700">
-                      <Check className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
+                      <Check className="h-4 w-4 text-green-500 mr-2 shrink-0" />
                       <span>Quality Guaranteed</span>
                     </div>
                   </div>

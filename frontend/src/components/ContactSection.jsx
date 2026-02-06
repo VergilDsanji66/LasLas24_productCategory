@@ -2,7 +2,7 @@ import { Phone, MessageCircle, Mail, MapPin, Clock } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-700 to-blue-800 text-white py-16">
+    <section className="bg-linear-to-r from-blue-700 to-blue-800 text-white py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
         
@@ -55,7 +55,7 @@ const ContactSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-2">Location</h3>
             <p className="text-blue-100 text-sm">Stand No 88 Khwecha Street</p>
-            <p className="text-blue-100 text-sm">Thohoyandou shatandima</p>
+            <p className="text-blue-100 text-sm">Thohoyandou shayandima</p>
             <div className="mt-4 flex items-center justify-center">
               <Clock className="h-4 w-4 mr-2" />
               <span className="text-sm">8AM - 6PM Daily</span>

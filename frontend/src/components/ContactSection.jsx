@@ -16,7 +16,7 @@ const ContactSection = () => {
               <Phone className="h-7 w-7" />
             </div>
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
-            <p className="text-blue-100 font-medium">063 283 4546</p>
+            <p className="text-blue-100 font-medium">081 542 5533</p>
             <p className="text-sm text-blue-100">066 345 1564</p>
           </a>
 
@@ -31,7 +31,7 @@ const ContactSection = () => {
               <MessageCircle className="h-7 w-7" />
             </div>
             <h3 className="text-xl font-bold mb-2">WhatsApp</h3>
-            <p className="text-blue-100 font-medium">063 283 4546</p>
+            <p className="text-blue-100 font-medium">081 542 5533</p>
             <p className="text-sm text-blue-100">Fast order processing</p>
           </a>
 
@@ -77,7 +77,7 @@ const ContactSection = () => {
                 href="tel:0632834546"
                 className="px-8 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition-colors shadow-lg hover:shadow-xl"
               >
-                Call Now: 063 283 4546
+                Call Now: 081 542 5533
               </a>
               <a 
                 href="tel:0663451564"

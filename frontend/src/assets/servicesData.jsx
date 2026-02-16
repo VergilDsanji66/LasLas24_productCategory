@@ -7,6 +7,7 @@ import coal from './coal.jpeg'
 import archaar from './archar.jpg'
 import wood from './wood.png'
 import boilerChicken from './boilerChicken.jpeg'
+import  BoilerChickens from './BoilerChickens.jpg'
 
 const servicesData = [
   {
@@ -16,19 +17,26 @@ const servicesData = [
     items: [
       { 
         id: 0, 
-        name: 'Live Chickens', 
-        sec_name: 'Khuhu', 
+        name: 'Hard Body Chickens', 
+        sec_name: 'Mukokoroshi', 
         price: 'R100',
         image: liveChicken
       },
       { 
         id: 1, 
+        name: ' Boiler Chickens', 
+        sec_name: 'Mukokoroshi wo thuvhiwaho', 
+        price: 'R100',
+        image:  BoilerChickens
+      },
+      { 
+        id: 2, 
         name: 'Slaughted And Dressed Hard Body Chickens', 
-        sec_name: 'Khuhu Dzo thuvhiwaho', 
+        sec_name: 'Mukokoroshi wo thuvhiwaho', 
         price: 'R110',
         image: hardBody
       }, {
-        id: 2,
+        id: 3,
         name: 'Slaughted And Dressed Boiler Chickens', 
         sec_name: 'Khuhu Dzo thuvhiwaho', 
         price: 'R110',

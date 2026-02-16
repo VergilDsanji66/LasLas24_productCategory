@@ -28,7 +28,7 @@ const ProductsSection = () => {
                   src={item.image} 
                   alt={item.name}
                   className={`w-full h-full object-cover transition-transform duration-300 hover:scale-105 ${
-                    item.name === 'Live Chickens' ? 'object-[0%_2%]' : 'object-center'
+                    item.name === 'Hard Body Chickens' ? 'object-[0%_2%]' : 'object-center'
                   }`}
                 />
               </div>

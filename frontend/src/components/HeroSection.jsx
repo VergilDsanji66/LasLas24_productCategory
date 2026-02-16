@@ -58,7 +58,7 @@ const HeroSection = () => {
           className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl"
         >
           <Phone className="h-6 w-6" />
-          Order Now: 063 283 4546
+          Order Now: 081 542 5533
         </a>
       </div>
     </section>
